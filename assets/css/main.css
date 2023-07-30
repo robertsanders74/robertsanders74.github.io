@@ -4167,7 +4167,7 @@ h6 {
 
 #sidebar h2,
 #sidebar .toggle:before {
-  color: #fff;
+  color: #007bff;
 }
 
 #sidebar a:hover {
@@ -4189,11 +4189,13 @@ h6 {
 
 /* Sidebar Text */
 #sidebar,
-#sidebar h2,
-#sidebar .toggle:before {
+#sidebar h2 {
   color: #000;
   font-family: "Latin Modern Roman", Times, serif;
 }
+
+
+
 
 /* Icons */
 #sidebar .contact li:before {
@@ -4224,4 +4226,10 @@ h3 {
 
 h1 {
   font-variant: small-caps;
+}
+
+
+
+#sidebar .toggle {
+  z-index: 999;
 }
