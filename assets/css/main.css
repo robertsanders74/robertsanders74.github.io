@@ -2107,13 +2107,13 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #f56a6a;
+		color: #007bff;
 		text-decoration: none;
 	}
 
 		a:hover {
-			border-bottom-color: #f56a6a;
-			color: #f56a6a !important;
+			border-bottom-color: #007bff;
+			color: #007bff !important;
 		}
 
 			a:hover strong {
@@ -2147,13 +2147,13 @@
 		}
 
 	h1 {
-		font-size: 4em;
+		font-size: 2.5em;
 		margin: 0 0 0.5em 0;
 		line-height: 1.3;
 	}
 
 	h2 {
-		font-size: 1.75em;
+		font-size: 2em;
 	}
 
 	h3 {
@@ -2282,9 +2282,9 @@
 	}
 
 	header.major > :last-child {
-		border-bottom: solid 3px #f56a6a;
+		border-bottom: solid 1px #007bff;
 		display: inline-block;
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 		padding: 0 0.75em 0.5em 0;
 	}
 
@@ -2349,7 +2349,7 @@
 		input[type="url"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #f56a6a;
+			border-color: #007bff;
 			box-shadow: 0 0 0 1px #f56a6a;
 		}
 
@@ -2463,8 +2463,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #f56a6a;
-			box-shadow: 0 0 0 1px #f56a6a;
+			border-color: #007bff;
+			box-shadow: 0 0 0 1px #007bff;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2681,7 +2681,7 @@
 
 			ul.contact li {
 				text-decoration: none;
-				border-top: solid 1px rgba(210, 215, 217, 0.75);
+				border-top: none 1px rgba(210, 215, 217, 0.75);
 				margin: 1.5em 0 0 0;
 				padding: 1.5em 0 0 3em;
 				position: relative;
@@ -2697,7 +2697,7 @@
 				}
 
 				ul.contact li:before {
-					color: #f56a6a;
+					color: #007bff;
 					display: inline-block;
 					font-size: 1.5em;
 					height: 1.125em;
@@ -2710,8 +2710,8 @@
 				}
 
 				ul.contact li:first-child {
-					border-top: 0;
-					margin-top: 0;
+					border-top: none;
+					margin-top: none;
 					padding-top: 0;
 				}
 
@@ -2753,7 +2753,7 @@
 				}
 
 				ul.actions.vertical li > * {
-					margin-bottom: 0;
+					margin-bottom: none;
 				}
 
 			ul.actions.vertical.small li {
@@ -2821,7 +2821,7 @@
 				}
 
 					ul.pagination li > .page.active {
-						background-color: #f56a6a;
+						background-color: #007bff;
 						color: #ffffff !important;
 					}
 
@@ -2953,8 +2953,8 @@
 		background-color: transparent;
 		border-radius: 0.375em;
 		border: 0;
-		box-shadow: inset 0 0 0 2px #f56a6a;
-		color: #f56a6a !important;
+		box-shadow: inset 0 0 0 2px #007bff;
+		color: #007bff !important;
 		cursor: pointer;
 		display: inline-block;
 		font-family: "Roboto Slab", serif;
@@ -3027,7 +3027,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #f56a6a;
+			background-color: #007bff;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -3147,7 +3147,7 @@
 			}
 
 				.features article .icon:before {
-					color: #f56a6a;
+					color: #007bff;
 					font-size: 2.75rem;
 					position: relative;
 					top: 0.05em;
@@ -3604,7 +3604,7 @@
 		}
 
 			#sidebar > .inner > * {
-				border-bottom: solid 2px rgba(210, 215, 217, 0.75);
+				border-bottom: none 2px rgba(210, 215, 217, 0.75);
 				margin: 0 0 3.5em 0;
 				padding: 0 0 3.5em 0;
 			}
@@ -3621,7 +3621,7 @@
 
 			#sidebar > .inner > .alt {
 				background-color: #eff1f2;
-				border-bottom: 0;
+				border-bottom: none;
 				margin: -2.22222em 0 4.44444em -2.22222em;
 				padding: 2.22222em;
 				width: calc(100% + 4.44444em);
@@ -3792,7 +3792,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		border-bottom: solid 5px #f56a6a;
+		border-bottom: none 5px #007bff;
 		padding: 6em 0 1em 0;
 		position: relative;
 	}
@@ -3802,11 +3802,11 @@
 			-webkit-flex: 1;
 			-ms-flex: 1;
 			flex: 1;
-			margin-bottom: 0;
+			margin-bottom: none;
 		}
 
 		#header .logo {
-			border-bottom: 0;
+			border-bottom: none;
 			color: inherit;
 			font-family: "Roboto Slab", serif;
 			font-size: 1.125em;
@@ -3987,7 +3987,7 @@
 		}
 
 			#menu ul a:hover, #menu ul span:hover {
-				color: #f56a6a;
+				color: #007bff;
 			}
 
 			#menu ul a.opener, #menu ul span.opener {
@@ -4021,7 +4021,7 @@
 				}
 
 				#menu ul a.opener:hover:before, #menu ul span.opener:hover:before {
-					color: #f56a6a;
+					color: #007bff;
 				}
 
 				#menu ul a.opener.active + ul, #menu ul span.opener.active + ul {
@@ -4062,3 +4062,166 @@
 			margin-top: 0;
 			padding-top: 0;
 		}
+
+		/* Fonts */
+body, input, select, textarea {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/* Colors */
+body {
+  background: #f2f2f2;
+}
+
+a {
+  color: #0077cc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+}
+
+#header {
+  border-bottom: solid 5px #0077cc;
+}
+
+#banner .button {
+  background-color: #0077cc;
+  color: #fff !important;
+}
+
+#banner .button:hover {
+  background-color: #0088ee;
+}
+
+#banner .button:active {
+  background-color: #006699;
+}
+
+#footer .copyright {
+  color: #666;
+}
+
+#sidebar .toggle:before {
+  color: #0077cc;
+}
+
+#menu ul a:hover, #menu ul span:hover {
+  color: #0077cc;
+}
+
+
+/* Set background to white */
+body {
+  background: #fff;
+}
+
+/* Set text color to black */
+body,
+h1, h2, h3, h4, h5, h6,
+#header,
+#footer,
+#menu ul a {
+  color: #000;
+}
+
+/* Set font family to Times New Roman */
+body,
+input,
+select,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Set font family to Latin Modern */
+body,
+input,
+select,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Latin Modern Roman", "Times New Roman", Times, serif;
+}
+
+
+/* Menu Bar */
+#sidebar {
+  background-color: #007bff;
+}
+
+
+#sidebar h2,
+#sidebar .toggle:before {
+  color: #fff;
+}
+
+#sidebar a:hover {
+  color: #eee;
+}
+
+
+/* Menu Font */
+#menu ul a,
+#menu ul span {
+  font-family: "Latin Modern Roman", Times, serif;
+}
+
+
+/* Sidebar Background */
+#sidebar {
+  background-color: #fff;
+}
+
+/* Sidebar Text */
+#sidebar,
+#sidebar h2,
+#sidebar .toggle:before {
+  color: #000;
+  font-family: "Latin Modern Roman", Times, serif;
+}
+
+/* Icons */
+#sidebar .contact li:before {
+  color: #007bff;
+}
+
+
+/* Icons */
+#sidebar .contact li:before {
+  border-top: none;
+}
+
+/* Menu Header */
+#menu > ul > li {
+  border-top: none;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+
+
+
+h1 {
+  font-variant: small-caps;
+}
