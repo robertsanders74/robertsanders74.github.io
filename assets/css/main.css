@@ -1,15 +1,38 @@
-@import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
 @font-face{
   font-family:"Latin Modern Roman";
-  src:url("../fonts/LMRoman10-Regular.woff2") format("woff2"),
-      url("../fonts/LMRoman10-Regular.woff")  format("woff"),
-      url("../fonts/LMRoman10-Regular.ttf")   format("truetype");
+  src:url("../fonts/lmroman10-regular-webfont.woff") format("woff");
   font-weight:400;
   font-style:normal;
   font-display:swap;
 }
+@font-face{
+  font-family:"Latin Modern Roman";
+  src:url("../fonts/lmroman10-italic-webfont.woff") format("woff");
+  font-weight:400;
+  font-style:italic;
+  font-display:swap;
+}
+@font-face{
+  font-family:"Latin Modern Roman";
+  src:url("../fonts/lmroman10-bold-webfont.woff") format("woff");
+  font-weight:700;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:"Latin Modern Roman";
+  src:url("../fonts/lmroman10-bolditalic-webfont.woff") format("woff");
+  font-weight:700;
+  font-style:italic;
+  font-display:swap;
+}
+
+/* apply the typeface to the whole site */
 body{font-family:"Latin Modern Roman", serif;}
+
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
+
 /*
 	Editorial by HTML5 UP
 	html5up.net | @ajlkn
